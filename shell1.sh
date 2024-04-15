@@ -4,7 +4,7 @@ reverse_string() {
 
      local input_string=$1
      local reverse_string=""
-     for ((i=${#input_string}-1; i>1=0; i--)); do
+     for ((i=${#input_string}-1; i>=0; i--)); do
          reverse_string="${reverse_string}${input_string:$i:1}"
      done
 
