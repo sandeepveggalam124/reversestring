@@ -15,7 +15,7 @@ reverse_string() {
 }
 
 # Usage example
-input="sandeep, jeevan, mustaq"
+input="sandeep, jeevan, mustaq, nagaraju"
 reversed=$(reverse_string "$input")
 echo "Original string: $input"
 echo "Reversed string: $reversed"
